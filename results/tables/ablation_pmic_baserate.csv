@@ -1,0 +1,5 @@
+objective,full,matched_mean,matched_sd,delta
+mse,0.1706,0.1108,0.0287,-0.0597
+pointwise_norm,0.3892,0.2209,0.0516,-0.1683
+ranknet,0.4913,0.2148,0.0244,-0.2765
+lambdaloss,0.2332,0.1381,0.0275,-0.0951

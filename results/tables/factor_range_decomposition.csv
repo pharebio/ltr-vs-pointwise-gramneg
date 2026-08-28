@@ -1,0 +1,7 @@
+scope_split,objective,representation,architecture,n_obj,n_rep,n_arc
+S1 cv,0.148,0.086,0.044,9,9,6
+S1 lodo,0.183,0.074,0.028,9,9,6
+S2 cv,0.135,0.067,0.048,9,9,6
+S2 lodo,0.123,0.047,0.044,9,9,6
+S3 cv,0.126,0.058,0.036,9,9,6
+S3 lodo,0.122,0.047,0.043,9,9,6

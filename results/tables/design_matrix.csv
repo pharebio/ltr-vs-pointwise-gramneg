@@ -1,0 +1,23 @@
+dimension,value,label,n_configs,is_core_loss
+scope,S1_wt_ecoli,S1 · WT E. coli,70,True
+scope,S2_ecoli_pmic,S2 · E. coli+pMIC,70,True
+scope,S3_multispecies,S3 · multi-species,70,True
+split,cv,5-fold CV (chemistry holdout),105,True
+split,lodo,leave-one-source-out (assay transfer),105,True
+arch,rf,Random Forest,36,True
+arch,xgb,XGBoost,56,True
+arch,mlp,MLP,90,True
+arch,gnn,D-MPNN (single-head),22,True
+arch,gnn_mt,D-MPNN (multi-task),6,True
+loss,mse,MSE,66,True
+loss,pointwise_norm,per-assay z-MSE,58,True
+loss,ranknet,RankNet,24,True
+loss,lambdaloss,LambdaLoss-NDCG,24,True
+loss,lambdamart,LambdaMART,18,True
+loss,lambdaloss_k,lambdaloss_k,6,False
+loss,ranknet_full,ranknet_full,12,False
+loss,lambdamart_full,lambdamart_full,2,False
+features,rdkit,RDKit descriptors (200-d),68,True
+features,morgan,Morgan FP (2048-d),54,True
+features,chemeleon,CheMeleon embed (2048-d),60,True
+features,learned,learned D-MPNN,28,True

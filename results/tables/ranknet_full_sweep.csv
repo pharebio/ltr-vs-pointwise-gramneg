@@ -1,0 +1,13 @@
+features,scope,split,lodo_disjoint,ranknet_full_bedroc_a20,ranknet_bedroc_a20,rescue_delta,best_pw_samerep_bedroc_a20,best_pw_samerep_config,gap_full_vs_pw,gap_regular_vs_pw,narrows_gap,closes_gap,best_pw_any_bedroc_a20,best_pw_any_config,ranknet_full_run_id
+rdkit,S1_wt_ecoli,cv,False,0.6606,0.5977,0.0629,0.6836,mlp/rdkit/mse,0.023,0.0859,True,False,0.7374,gnn/learned/mse,mlp-rdkit-ranknet_full-cv-S1-6d2891
+rdkit,S1_wt_ecoli,lodo,True,0.6028,0.5672,0.0355,0.6705,xgb/rdkit/pointwise_norm,0.0678,0.1033,True,False,0.6995,mlp/chemeleon/pointwise_norm,mlp-rdkit-ranknet_full-lodo-S1-disjoint-206f50
+rdkit,S2_ecoli_pmic,cv,False,0.4872,0.4403,0.0469,0.5492,xgb/rdkit/pointwise_norm,0.062,0.1089,True,False,0.6441,gnn_mt/learned/mse,mlp-rdkit-ranknet_full-cv-S2-4ddcae
+rdkit,S2_ecoli_pmic,lodo,True,0.3855,0.3313,0.0542,0.4616,xgb/rdkit/pointwise_norm,0.0762,0.1303,True,False,0.5115,rf/morgan/pointwise_norm,mlp-rdkit-ranknet_full-lodo-S2-disjoint-4b508c
+rdkit,S3_multispecies,cv,False,0.4562,0.4193,0.037,0.5227,xgb/rdkit/pointwise_norm,0.0664,0.1034,True,False,0.6105,gnn_mt/learned/mse,mlp-rdkit-ranknet_full-cv-S3-928bf7
+rdkit,S3_multispecies,lodo,True,0.3466,0.2967,0.0499,0.4554,xgb/rdkit/pointwise_norm,0.1089,0.1588,True,False,0.4781,gnn_mt/learned/mse,mlp-rdkit-ranknet_full-lodo-S3-disjoint-dc502b
+chemeleon,S1_wt_ecoli,cv,False,0.6824,0.6354,0.047,0.7307,mlp/chemeleon/pointwise_norm,0.0483,0.0953,True,False,0.7374,gnn/learned/mse,mlp-chemeleon-ranknet_full-cv-S1-2cb1db
+chemeleon,S1_wt_ecoli,lodo,True,0.6619,0.5978,0.0641,0.6995,mlp/chemeleon/pointwise_norm,0.0375,0.1016,True,False,0.6995,mlp/chemeleon/pointwise_norm,mlp-chemeleon-ranknet_full-lodo-S1-disjoint-033c17
+chemeleon,S2_ecoli_pmic,cv,False,0.5323,0.4955,0.0368,0.5833,xgb/chemeleon/pointwise_norm,0.051,0.0878,True,False,0.6441,gnn_mt/learned/mse,mlp-chemeleon-ranknet_full-cv-S2-c68c77
+chemeleon,S2_ecoli_pmic,lodo,True,0.4051,0.3387,0.0664,0.4914,xgb/chemeleon/pointwise_norm,0.0863,0.1527,True,False,0.5115,rf/morgan/pointwise_norm,mlp-chemeleon-ranknet_full-lodo-S2-disjoint-185a62
+chemeleon,S3_multispecies,cv,False,0.4993,0.4512,0.0481,0.5446,xgb/chemeleon/pointwise_norm,0.0453,0.0935,True,False,0.6105,gnn_mt/learned/mse,mlp-chemeleon-ranknet_full-cv-S3-9afba7
+chemeleon,S3_multispecies,lodo,True,0.3515,0.3151,0.0364,0.4648,xgb/chemeleon/pointwise_norm,0.1132,0.1497,True,False,0.4781,gnn_mt/learned/mse,mlp-chemeleon-ranknet_full-lodo-S3-disjoint-c80cd5

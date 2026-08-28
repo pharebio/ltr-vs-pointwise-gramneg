@@ -1,0 +1,179 @@
+{
+ "n_compounds": 828149,
+ "val_fraction": 0.05,
+ "seed": 0,
+ "min_actives": 25,
+ "scopes": {
+  "S1_wt_ecoli": {
+   "tasks": [
+    "aid_0000710_e_coli_BW25113_100_uM",
+    "aid_1053175_e_coli__",
+    "coadd_os_Escherichia coli_ATCC 25922_32_ug/mL",
+    "gadiya_validation_Escherichia_coli_50_uM"
+   ],
+   "n_folds": 4,
+   "folds": [
+    {
+     "fold": 0,
+     "held_out_source": "aid_0000710",
+     "n_train": 381043,
+     "n_val": 20055,
+     "n_test": 97450,
+     "n_test_actives": 58
+    },
+    {
+     "fold": 1,
+     "held_out_source": "aid_1053175",
+     "n_train": 162850,
+     "n_val": 8571,
+     "n_test": 327127,
+     "n_test_actives": 217
+    },
+    {
+     "fold": 2,
+     "held_out_source": "coadd_os",
+     "n_train": 401270,
+     "n_val": 21119,
+     "n_test": 76159,
+     "n_test_actives": 108
+    },
+    {
+     "fold": 3,
+     "held_out_source": "gadiya_validation",
+     "n_train": 377668,
+     "n_val": 19877,
+     "n_test": 101003,
+     "n_test_actives": 62
+    }
+   ]
+  },
+  "S2_ecoli_pmic": {
+   "tasks": [
+    "aid_0000710_e_coli_BW25113_100_uM",
+    "aid_1053175_e_coli__",
+    "coadd_os_Escherichia coli_ATCC 25922_32_ug/mL",
+    "gadiya_validation_Escherichia_coli_50_uM",
+    "coadd_os_Escherichia coli_tolC; MB5747_32_ug/mL",
+    "zahed_2021_e_coli_BW25113_deltaTolC_10_uM",
+    "coadd_os_Escherichia coli_lpxC; MB4902_32_ug/mL",
+    "gadiya_pmic_gram_negative__pMIC"
+   ],
+   "n_folds": 6,
+   "folds": [
+    {
+     "fold": 0,
+     "held_out_source": "aid_0000710",
+     "n_train": 694154,
+     "n_val": 36534,
+     "n_test": 97450,
+     "n_test_actives": 58
+    },
+    {
+     "fold": 1,
+     "held_out_source": "aid_1053175",
+     "n_train": 475960,
+     "n_val": 25051,
+     "n_test": 327127,
+     "n_test_actives": 217
+    },
+    {
+     "fold": 2,
+     "held_out_source": "coadd_os",
+     "n_train": 714380,
+     "n_val": 37599,
+     "n_test": 76159,
+     "n_test_actives": 1061
+    },
+    {
+     "fold": 3,
+     "held_out_source": "gadiya_pmic",
+     "n_train": 748975,
+     "n_val": 39420,
+     "n_test": 39743,
+     "n_test_actives": 2596
+    },
+    {
+     "fold": 4,
+     "held_out_source": "gadiya_validation",
+     "n_train": 690778,
+     "n_val": 36357,
+     "n_test": 101003,
+     "n_test_actives": 62
+    },
+    {
+     "fold": 5,
+     "held_out_source": "zahed_2021",
+     "n_train": 484277,
+     "n_val": 25488,
+     "n_test": 318373,
+     "n_test_actives": 1371
+    }
+   ]
+  },
+  "S3_multispecies": {
+   "tasks": [
+    "aid_0000710_e_coli_BW25113_100_uM",
+    "aid_1053175_e_coli__",
+    "coadd_os_Acinetobacter baumannii_ATCC 19606_32_ug/mL",
+    "coadd_os_Escherichia coli_ATCC 25922_32_ug/mL",
+    "coadd_os_Escherichia coli_lpxC; MB4902_32_ug/mL",
+    "coadd_os_Escherichia coli_tolC; MB5747_32_ug/mL",
+    "coadd_os_Pseudomonas aeruginosa_PAO397; PAO1 d(mexAB-oprM) d(mexCD-oprJ) d(mexEF-oprN) d(mexJKL) d(mexXY) d(opmH) d(pscC)_32_ug/mL",
+    "gadiya_pmic_gram_negative__pMIC",
+    "gadiya_validation_Escherichia_coli_50_uM",
+    "zahed_2021_e_coli_BW25113_deltaTolC_10_uM"
+   ],
+   "n_folds": 6,
+   "folds": [
+    {
+     "fold": 0,
+     "held_out_source": "aid_0000710",
+     "n_train": 694154,
+     "n_val": 36534,
+     "n_test": 97450,
+     "n_test_actives": 58
+    },
+    {
+     "fold": 1,
+     "held_out_source": "aid_1053175",
+     "n_train": 475960,
+     "n_val": 25051,
+     "n_test": 327127,
+     "n_test_actives": 217
+    },
+    {
+     "fold": 2,
+     "held_out_source": "coadd_os",
+     "n_train": 714380,
+     "n_val": 37599,
+     "n_test": 76159,
+     "n_test_actives": 1344
+    },
+    {
+     "fold": 3,
+     "held_out_source": "gadiya_pmic",
+     "n_train": 748975,
+     "n_val": 39420,
+     "n_test": 39743,
+     "n_test_actives": 2596
+    },
+    {
+     "fold": 4,
+     "held_out_source": "gadiya_validation",
+     "n_train": 690778,
+     "n_val": 36357,
+     "n_test": 101003,
+     "n_test_actives": 62
+    },
+    {
+     "fold": 5,
+     "held_out_source": "zahed_2021",
+     "n_train": 484277,
+     "n_val": 25488,
+     "n_test": 318373,
+     "n_test_actives": 1371
+    }
+   ]
+  }
+ }
+}

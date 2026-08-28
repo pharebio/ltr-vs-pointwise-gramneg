@@ -1,0 +1,36 @@
+# Core (metrics, data handling, classical baselines)
+numpy>=1.24
+scipy>=1.10
+scikit-learn>=1.3
+pandas>=2.0
+pyarrow>=15            # read/write the feature parquets (features.py)
+rdkit>=2023.3          # SMILES parsing + Morgan fingerprints (features.py)
+descriptastorus>=2.6   # 200-dim CDF-normalized RDKit descriptors (compute_rdkit_features.py)
+
+# Gradient-boosted baselines (xgb_scorer.py): pointwise reg:squarederror + LambdaMART rank:ndcg
+xgboost>=2.0
+
+# Neural arms + ranking losses (model.py, losses.py, run_benchmark MLP/GNN arms).
+# Install a build matching your platform / CUDA from https://pytorch.org
+torch>=2.0
+
+# D-MPNN arms + CheMeleon embeddings (ranking_chemprop.py, extract_embeddings.py).
+# Needed only for the gnn / gnn_mt configs and for regenerating CheMeleon features;
+# the CPU arms (rf / xgb / mlp) and the test suite do not require it.
+chemprop>=2.2
+
+# Figures
+matplotlib>=3.7
+umap-learn>=0.5        # dataset-overview UMAP (make_dataset_figure.py); pulls numba+llvmlite
+# Optional: auto-traced MLP architecture diagram (make_figures.py). torchview also needs
+# the system `dot` binary (e.g. `apt install graphviz`).
+# torchinfo>=1.8
+# torchview>=0.2
+# graphviz>=0.20
+
+# Optional: ClearML experiment tracking. OFF by default -- the benchmark runs fully
+# locally (data ships under data/). Set LEARN2RANK_CLEARML_PROJECT to enable tracking.
+# clearml>=1.16
+
+# The pure-numpy test suite (metrics / pairs / splits) needs only: numpy scipy
+# scikit-learn pandas pytest ruff  (see .github/workflows/ci.yml).

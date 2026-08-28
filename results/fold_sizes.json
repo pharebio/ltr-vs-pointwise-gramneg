@@ -1,0 +1,416 @@
+{
+  "S1_wt_ecoli|cv": {
+    "scope": "S1_wt_ecoli",
+    "split": "cv",
+    "n_tasks": 4,
+    "folds": [
+      {
+        "fold": 0,
+        "n_test_rows": 118865,
+        "full": {
+          "row": 434587,
+          "compound": 360302
+        },
+        "pool5000": {
+          "row": 18311,
+          "compound": 18166
+        }
+      },
+      {
+        "fold": 1,
+        "n_test_rows": 121452,
+        "full": {
+          "row": 432258,
+          "compound": 357881
+        },
+        "pool5000": {
+          "row": 18319,
+          "compound": 18202
+        }
+      },
+      {
+        "fold": 2,
+        "n_test_rows": 118793,
+        "full": {
+          "row": 434651,
+          "compound": 359940
+        },
+        "pool5000": {
+          "row": 18341,
+          "compound": 18205
+        }
+      },
+      {
+        "fold": 3,
+        "n_test_rows": 120643,
+        "full": {
+          "row": 432986,
+          "compound": 358834
+        },
+        "pool5000": {
+          "row": 18340,
+          "compound": 18225
+        }
+      },
+      {
+        "fold": 4,
+        "n_test_rows": 121986,
+        "full": {
+          "row": 431778,
+          "compound": 357816
+        },
+        "pool5000": {
+          "row": 18291,
+          "compound": 18170
+        }
+      }
+    ]
+  },
+  "S1_wt_ecoli|lodo": {
+    "scope": "S1_wt_ecoli",
+    "split": "lodo",
+    "n_tasks": 4,
+    "folds": [
+      {
+        "fold": 0,
+        "n_test_rows": 97450,
+        "full": {
+          "row": 453860,
+          "compound": 444985
+        },
+        "pool5000": {
+          "row": 13848,
+          "compound": 13819
+        }
+      },
+      {
+        "fold": 1,
+        "n_test_rows": 327127,
+        "full": {
+          "row": 247151,
+          "compound": 243306
+        },
+        "pool5000": {
+          "row": 13705,
+          "compound": 13694
+        }
+      },
+      {
+        "fold": 2,
+        "n_test_rows": 76159,
+        "full": {
+          "row": 473022,
+          "compound": 386606
+        },
+        "pool5000": {
+          "row": 13803,
+          "compound": 13701
+        }
+      },
+      {
+        "fold": 3,
+        "n_test_rows": 101003,
+        "full": {
+          "row": 450662,
+          "compound": 360553
+        },
+        "pool5000": {
+          "row": 13845,
+          "compound": 13733
+        }
+      }
+    ]
+  },
+  "S2_ecoli_pmic|cv": {
+    "scope": "S2_ecoli_pmic",
+    "split": "cv",
+    "n_tasks": 8,
+    "folds": [
+      {
+        "fold": 0,
+        "n_test_rows": 218503,
+        "full": {
+          "row": 795605,
+          "compound": 597705
+        },
+        "pool5000": {
+          "row": 39936,
+          "compound": 38329
+        }
+      },
+      {
+        "fold": 1,
+        "n_test_rows": 223878,
+        "full": {
+          "row": 790768,
+          "compound": 594381
+        },
+        "pool5000": {
+          "row": 39710,
+          "compound": 38049
+        }
+      },
+      {
+        "fold": 2,
+        "n_test_rows": 217529,
+        "full": {
+          "row": 796482,
+          "compound": 598229
+        },
+        "pool5000": {
+          "row": 39868,
+          "compound": 38243
+        }
+      },
+      {
+        "fold": 3,
+        "n_test_rows": 219416,
+        "full": {
+          "row": 794784,
+          "compound": 597298
+        },
+        "pool5000": {
+          "row": 39964,
+          "compound": 38283
+        }
+      },
+      {
+        "fold": 4,
+        "n_test_rows": 223183,
+        "full": {
+          "row": 791393,
+          "compound": 593683
+        },
+        "pool5000": {
+          "row": 39837,
+          "compound": 38290
+        }
+      }
+    ]
+  },
+  "S2_ecoli_pmic|lodo": {
+    "scope": "S2_ecoli_pmic",
+    "split": "lodo",
+    "n_tasks": 8,
+    "folds": [
+      {
+        "fold": 0,
+        "n_test_rows": 97450,
+        "full": {
+          "row": 904553,
+          "compound": 741803
+        },
+        "pool5000": {
+          "row": 36276,
+          "compound": 34983
+        }
+      },
+      {
+        "fold": 1,
+        "n_test_rows": 327127,
+        "full": {
+          "row": 697844,
+          "compound": 553113
+        },
+        "pool5000": {
+          "row": 36133,
+          "compound": 34844
+        }
+      },
+      {
+        "fold": 2,
+        "n_test_rows": 218813,
+        "full": {
+          "row": 795326,
+          "compound": 685345
+        },
+        "pool5000": {
+          "row": 26374,
+          "compound": 26203
+        }
+      },
+      {
+        "fold": 3,
+        "n_test_rows": 39743,
+        "full": {
+          "row": 956489,
+          "compound": 710410
+        },
+        "pool5000": {
+          "row": 33992,
+          "compound": 32584
+        }
+      },
+      {
+        "fold": 4,
+        "n_test_rows": 101003,
+        "full": {
+          "row": 901355,
+          "compound": 660100
+        },
+        "pool5000": {
+          "row": 36273,
+          "compound": 34866
+        }
+      },
+      {
+        "fold": 5,
+        "n_test_rows": 318373,
+        "full": {
+          "row": 705722,
+          "compound": 483837
+        },
+        "pool5000": {
+          "row": 35095,
+          "compound": 33734
+        }
+      }
+    ]
+  },
+  "S3_multispecies|cv": {
+    "scope": "S3_multispecies",
+    "split": "cv",
+    "n_tasks": 10,
+    "folds": [
+      {
+        "fold": 0,
+        "n_test_rows": 236388,
+        "full": {
+          "row": 860894,
+          "compound": 597705
+        },
+        "pool5000": {
+          "row": 49128,
+          "compound": 45099
+        }
+      },
+      {
+        "fold": 1,
+        "n_test_rows": 242771,
+        "full": {
+          "row": 855149,
+          "compound": 594381
+        },
+        "pool5000": {
+          "row": 48925,
+          "compound": 44876
+        }
+      },
+      {
+        "fold": 2,
+        "n_test_rows": 235484,
+        "full": {
+          "row": 861708,
+          "compound": 598229
+        },
+        "pool5000": {
+          "row": 49074,
+          "compound": 45010
+        }
+      },
+      {
+        "fold": 3,
+        "n_test_rows": 237351,
+        "full": {
+          "row": 860027,
+          "compound": 597298
+        },
+        "pool5000": {
+          "row": 49182,
+          "compound": 45142
+        }
+      },
+      {
+        "fold": 4,
+        "n_test_rows": 240943,
+        "full": {
+          "row": 856795,
+          "compound": 593683
+        },
+        "pool5000": {
+          "row": 49023,
+          "compound": 45087
+        }
+      }
+    ]
+  },
+  "S3_multispecies|lodo": {
+    "scope": "S3_multispecies",
+    "split": "lodo",
+    "n_tasks": 10,
+    "folds": [
+      {
+        "fold": 0,
+        "n_test_rows": 97450,
+        "full": {
+          "row": 985938,
+          "compound": 741803
+        },
+        "pool5000": {
+          "row": 45531,
+          "compound": 42226
+        }
+      },
+      {
+        "fold": 1,
+        "n_test_rows": 327127,
+        "full": {
+          "row": 779229,
+          "compound": 553113
+        },
+        "pool5000": {
+          "row": 45388,
+          "compound": 42056
+        }
+      },
+      {
+        "fold": 2,
+        "n_test_rows": 309241,
+        "full": {
+          "row": 795326,
+          "compound": 685345
+        },
+        "pool5000": {
+          "row": 26374,
+          "compound": 26203
+        }
+      },
+      {
+        "fold": 3,
+        "n_test_rows": 39743,
+        "full": {
+          "row": 1037875,
+          "compound": 710410
+        },
+        "pool5000": {
+          "row": 43247,
+          "compound": 39826
+        }
+      },
+      {
+        "fold": 4,
+        "n_test_rows": 101003,
+        "full": {
+          "row": 982741,
+          "compound": 660100
+        },
+        "pool5000": {
+          "row": 45527,
+          "compound": 42116
+        }
+      },
+      {
+        "fold": 5,
+        "n_test_rows": 318373,
+        "full": {
+          "row": 787108,
+          "compound": 483837
+        },
+        "pool5000": {
+          "row": 44349,
+          "compound": 40986
+        }
+      }
+    ]
+  }
+}

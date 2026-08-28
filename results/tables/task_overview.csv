@@ -1,0 +1,15 @@
+task_column,source,task,n,actives,hit_%,S1,S2,S3,in_any_scope,threshold
+aid_0000710_e_coli_BW25113_100_uM,aid_0000710,E. coli BW25113 (100 µM),97450,58,0.059517701385325805,True,True,True,True,80.0
+aid_1053175_e_coli__,aid_1053175,E. coli (AID 1053175),327127,217,0.06633509309839909,True,True,True,True,80.0
+coadd_os_Acinetobacter baumannii_ATCC 19606_32_ug/mL,coadd_os,A. baumannii ATCC 19606,76044,227,0.29851138814370626,False,False,True,True,80.0
+coadd_os_Escherichia coli_ATCC 25922_32_ug/mL,coadd_os,E. coli ATCC 25922,76159,108,0.14180858467154242,True,True,True,True,80.0
+coadd_os_Escherichia coli_lpxC; MB4902_32_ug/mL,coadd_os,E. coli lpxC (OM-defect),74758,274,0.3665159581583242,False,True,True,True,80.0
+coadd_os_Escherichia coli_tolC; MB5747_32_ug/mL,coadd_os,E. coli tolC (efflux-KO),67896,679,1.0000589136326146,False,True,True,True,80.0
+coadd_os_Klebsiella pneumoniae_ATCC 700603; MDR_32_ug/mL,coadd_os,K. pneumoniae MDR,76157,15,0.019696153997662724,False,False,False,False,80.0
+coadd_os_Pseudomonas aeruginosa_ATCC 27853_32_ug/mL,coadd_os,P. aeruginosa ATCC 27853,76157,16,0.02100923093084024,False,False,False,False,80.0
+coadd_os_Pseudomonas aeruginosa_PAO1_32_ug/mL,coadd_os,P. aeruginosa PAO1,1760,0,0.0,False,False,False,False,80.0
+coadd_os_Pseudomonas aeruginosa_PAO397; PAO1 d(mexAB-oprM) d(mexCD-oprJ) d(mexEF-oprN) d(mexJKL) d(mexXY) d(opmH) d(pscC)_32_ug/mL,coadd_os,P. aeruginosa PAO397 (efflux-KO),14384,56,0.389321468298109,False,False,True,True,80.0
+gadiya_pmic_gram_negative__pMIC,gadiya_pmic,gram-negative pMIC,39743,2596,6.531967893717132,False,True,True,True,7.0
+gadiya_validation_Escherichia_coli_50_uM,gadiya_validation,E. coli (50 µM),101003,62,0.06138431531736681,True,True,True,True,80.0
+gadiya_validation_Pseudomonas_aeruginosa_50_uM,gadiya_validation,P. aeruginosa (50 µM),100987,12,0.011882717577509977,False,False,False,False,80.0
+zahed_2021_e_coli_BW25113_deltaTolC_10_uM,zahed_2021,E. coli ΔtolC (10 µM),318373,1371,0.4306269689954864,False,True,True,True,80.0

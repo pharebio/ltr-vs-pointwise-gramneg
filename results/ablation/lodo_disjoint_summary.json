@@ -1,0 +1,226 @@
+{
+ "rows": [
+  {
+   "scope": "S1_wt_ecoli",
+   "loss": "ranknet",
+   "mode": "overlap",
+   "bedroc": 0.6056150790491578,
+   "per_assay": {
+    "aid_0000710_e_coli_BW25113_100_uM": 0.6201733817671062,
+    "aid_1053175_e_coli__": 0.7055662303795112,
+    "coadd_os_Escherichia coli_ATCC 25922_32_ug/mL": 0.4370133209134944,
+    "gadiya_validation_Escherichia_coli_50_uM": 0.6597073831365194
+   }
+  },
+  {
+   "scope": "S1_wt_ecoli",
+   "loss": "ranknet",
+   "mode": "disjoint",
+   "bedroc": 0.5672075628460322,
+   "per_assay": {
+    "aid_0000710_e_coli_BW25113_100_uM": 0.5877414532676376,
+    "aid_1053175_e_coli__": 0.6712096694551443,
+    "coadd_os_Escherichia coli_ATCC 25922_32_ug/mL": 0.36150798840784,
+    "gadiya_validation_Escherichia_coli_50_uM": 0.6483711402535068
+   }
+  },
+  {
+   "scope": "S1_wt_ecoli",
+   "loss": "lambdaloss",
+   "mode": "overlap",
+   "bedroc": 0.5655701952319674,
+   "per_assay": {
+    "aid_0000710_e_coli_BW25113_100_uM": 0.5681503953913235,
+    "aid_1053175_e_coli__": 0.7376261789904783,
+    "coadd_os_Escherichia coli_ATCC 25922_32_ug/mL": 0.34536136945919377,
+    "gadiya_validation_Escherichia_coli_50_uM": 0.6111428370868739
+   }
+  },
+  {
+   "scope": "S1_wt_ecoli",
+   "loss": "lambdaloss",
+   "mode": "disjoint",
+   "bedroc": 0.526282995125243,
+   "per_assay": {
+    "aid_0000710_e_coli_BW25113_100_uM": 0.5419446365190999,
+    "aid_1053175_e_coli__": 0.6964445360182309,
+    "coadd_os_Escherichia coli_ATCC 25922_32_ug/mL": 0.2800659309316055,
+    "gadiya_validation_Escherichia_coli_50_uM": 0.5866768770320357
+   }
+  },
+  {
+   "scope": "S1_wt_ecoli",
+   "loss": "mse",
+   "mode": "overlap",
+   "bedroc": 0.6903015611198481,
+   "per_assay": {
+    "aid_0000710_e_coli_BW25113_100_uM": 0.8305723231293224,
+    "aid_1053175_e_coli__": 0.7370482103215867,
+    "coadd_os_Escherichia coli_ATCC 25922_32_ug/mL": 0.5139726101126841,
+    "gadiya_validation_Escherichia_coli_50_uM": 0.6796131009157991
+   }
+  },
+  {
+   "scope": "S1_wt_ecoli",
+   "loss": "mse",
+   "mode": "disjoint",
+   "bedroc": 0.6364679931986819,
+   "per_assay": {
+    "aid_0000710_e_coli_BW25113_100_uM": 0.7193735891885424,
+    "aid_1053175_e_coli__": 0.6679473936825089,
+    "coadd_os_Escherichia coli_ATCC 25922_32_ug/mL": 0.5194772245885887,
+    "gadiya_validation_Escherichia_coli_50_uM": 0.6390737653350874
+   }
+  },
+  {
+   "scope": "S2_ecoli_pmic",
+   "loss": "ranknet",
+   "mode": "overlap",
+   "bedroc": 0.3647812991149801,
+   "per_assay": {
+    "aid_0000710_e_coli_BW25113_100_uM": 0.5966016362977311,
+    "aid_1053175_e_coli__": 0.6411963272956066,
+    "coadd_os_Escherichia coli_ATCC 25922_32_ug/mL": 0.23178534108927046,
+    "coadd_os_Escherichia coli_lpxC; MB4902_32_ug/mL": 0.19250421672822726,
+    "coadd_os_Escherichia coli_tolC; MB5747_32_ug/mL": 0.16610780804344488,
+    "gadiya_pmic_gram_negative__pMIC": 0.2542828637172929,
+    "gadiya_validation_Escherichia_coli_50_uM": 0.5958642537893578,
+    "zahed_2021_e_coli_BW25113_deltaTolC_10_uM": 0.2399079459589098
+   }
+  },
+  {
+   "scope": "S2_ecoli_pmic",
+   "loss": "ranknet",
+   "mode": "disjoint",
+   "bedroc": 0.33130402067250175,
+   "per_assay": {
+    "aid_0000710_e_coli_BW25113_100_uM": 0.49742537882786064,
+    "aid_1053175_e_coli__": 0.474727998071722,
+    "coadd_os_Escherichia coli_ATCC 25922_32_ug/mL": 0.26037525329742633,
+    "coadd_os_Escherichia coli_lpxC; MB4902_32_ug/mL": 0.22859881067548557,
+    "coadd_os_Escherichia coli_tolC; MB5747_32_ug/mL": 0.18017026456427346,
+    "gadiya_pmic_gram_negative__pMIC": 0.2307042307646471,
+    "gadiya_validation_Escherichia_coli_50_uM": 0.5619532681170151,
+    "zahed_2021_e_coli_BW25113_deltaTolC_10_uM": 0.216476961061584
+   }
+  },
+  {
+   "scope": "S2_ecoli_pmic",
+   "loss": "lambdaloss",
+   "mode": "overlap",
+   "bedroc": 0.32012084080978487,
+   "per_assay": {
+    "aid_0000710_e_coli_BW25113_100_uM": 0.48227412102869716,
+    "aid_1053175_e_coli__": 0.4933488144452725,
+    "coadd_os_Escherichia coli_ATCC 25922_32_ug/mL": 0.18368387024603922,
+    "coadd_os_Escherichia coli_lpxC; MB4902_32_ug/mL": 0.2154661107874842,
+    "coadd_os_Escherichia coli_tolC; MB5747_32_ug/mL": 0.19204600518147366,
+    "gadiya_pmic_gram_negative__pMIC": 0.16358489545118665,
+    "gadiya_validation_Escherichia_coli_50_uM": 0.5471779491969408,
+    "zahed_2021_e_coli_BW25113_deltaTolC_10_uM": 0.28338496014118447
+   }
+  },
+  {
+   "scope": "S2_ecoli_pmic",
+   "loss": "lambdaloss",
+   "mode": "disjoint",
+   "bedroc": 0.2667198439098789,
+   "per_assay": {
+    "aid_0000710_e_coli_BW25113_100_uM": 0.40442000778207216,
+    "aid_1053175_e_coli__": 0.4335033788296373,
+    "coadd_os_Escherichia coli_ATCC 25922_32_ug/mL": 0.11708044330528551,
+    "coadd_os_Escherichia coli_lpxC; MB4902_32_ug/mL": 0.12267649051488283,
+    "coadd_os_Escherichia coli_tolC; MB5747_32_ug/mL": 0.1164697544539227,
+    "gadiya_pmic_gram_negative__pMIC": 0.15413227441168045,
+    "gadiya_validation_Escherichia_coli_50_uM": 0.5332852206483335,
+    "zahed_2021_e_coli_BW25113_deltaTolC_10_uM": 0.2521911813332165
+   }
+  },
+  {
+   "scope": "S2_ecoli_pmic",
+   "loss": "mse",
+   "mode": "overlap",
+   "bedroc": 0.4743685145153673,
+   "per_assay": {
+    "aid_0000710_e_coli_BW25113_100_uM": 0.7502430888162883,
+    "aid_1053175_e_coli__": 0.5656532573794765,
+    "coadd_os_Escherichia coli_ATCC 25922_32_ug/mL": 0.39265791955073276,
+    "coadd_os_Escherichia coli_lpxC; MB4902_32_ug/mL": 0.37985962975624293,
+    "coadd_os_Escherichia coli_tolC; MB5747_32_ug/mL": 0.3422875026037092,
+    "gadiya_pmic_gram_negative__pMIC": 0.38231197759764035,
+    "gadiya_validation_Escherichia_coli_50_uM": 0.6583317762864783,
+    "zahed_2021_e_coli_BW25113_deltaTolC_10_uM": 0.3236029641323701
+   }
+  },
+  {
+   "scope": "S2_ecoli_pmic",
+   "loss": "mse",
+   "mode": "disjoint",
+   "bedroc": 0.44785962361885145,
+   "per_assay": {
+    "aid_0000710_e_coli_BW25113_100_uM": 0.640973180925595,
+    "aid_1053175_e_coli__": 0.4573798536526074,
+    "coadd_os_Escherichia coli_ATCC 25922_32_ug/mL": 0.4276765465014259,
+    "coadd_os_Escherichia coli_lpxC; MB4902_32_ug/mL": 0.41201326768066954,
+    "coadd_os_Escherichia coli_tolC; MB5747_32_ug/mL": 0.34088206807348953,
+    "gadiya_pmic_gram_negative__pMIC": 0.39134901443180564,
+    "gadiya_validation_Escherichia_coli_50_uM": 0.5980992848361842,
+    "zahed_2021_e_coli_BW25113_deltaTolC_10_uM": 0.31450377284903464
+   }
+  },
+  {
+   "scope": "S2_ecoli_pmic",
+   "loss": "pointwise_norm",
+   "mode": "overlap",
+   "bedroc": 0.47961923761334735,
+   "per_assay": {
+    "aid_0000710_e_coli_BW25113_100_uM": 0.7776649748396082,
+    "aid_1053175_e_coli__": 0.6305036346536177,
+    "coadd_os_Escherichia coli_ATCC 25922_32_ug/mL": 0.44405262363950526,
+    "coadd_os_Escherichia coli_lpxC; MB4902_32_ug/mL": 0.41186258959856603,
+    "coadd_os_Escherichia coli_tolC; MB5747_32_ug/mL": 0.3412502916609769,
+    "gadiya_pmic_gram_negative__pMIC": 0.37678106580819315,
+    "gadiya_validation_Escherichia_coli_50_uM": 0.5790513227935735,
+    "zahed_2021_e_coli_BW25113_deltaTolC_10_uM": 0.27578739791273804
+   }
+  },
+  {
+   "scope": "S2_ecoli_pmic",
+   "loss": "pointwise_norm",
+   "mode": "disjoint",
+   "bedroc": 0.444497649452626,
+   "per_assay": {
+    "aid_0000710_e_coli_BW25113_100_uM": 0.7226383492392666,
+    "aid_1053175_e_coli__": 0.525578638582826,
+    "coadd_os_Escherichia coli_ATCC 25922_32_ug/mL": 0.4323183034209668,
+    "coadd_os_Escherichia coli_lpxC; MB4902_32_ug/mL": 0.40814817285221316,
+    "coadd_os_Escherichia coli_tolC; MB5747_32_ug/mL": 0.33698437055400676,
+    "gadiya_pmic_gram_negative__pMIC": 0.3181686662732692,
+    "gadiya_validation_Escherichia_coli_50_uM": 0.5543938360885606,
+    "zahed_2021_e_coli_BW25113_deltaTolC_10_uM": 0.2577508586098983
+   }
+  }
+ ],
+ "summary": {
+  "S1_wt_ecoli/overlap": {
+   "best_pt": 0.6903015611198481,
+   "best_rank": 0.6056150790491578,
+   "gap": 0.0846864820706903
+  },
+  "S1_wt_ecoli/disjoint": {
+   "best_pt": 0.6364679931986819,
+   "best_rank": 0.5672075628460322,
+   "gap": 0.06926043035264962
+  },
+  "S2_ecoli_pmic/overlap": {
+   "best_pt": 0.47961923761334735,
+   "best_rank": 0.3647812991149801,
+   "gap": 0.11483793849836726
+  },
+  "S2_ecoli_pmic/disjoint": {
+   "best_pt": 0.44785962361885145,
+   "best_rank": 0.33130402067250175,
+   "gap": 0.1165556029463497
+  }
+ }
+}

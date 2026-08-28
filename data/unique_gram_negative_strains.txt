@@ -1,0 +1,19 @@
+Escherichia coli_lpxC; MB4902
+Escherichia coli_tolC; MB5747
+Escherichia coli_ATCC 25922
+Klebsiella pneumoniae_ATCC 700603; MDR
+Acinetobacter baumannii_ATCC 19606
+Pseudomonas aeruginosa_ATCC 27853
+Pseudomonas aeruginosa_PAO397; PAO1 d(mexAB-oprM) d(mexCD-oprJ) d(mexEF-oprN) d(mexJKL) d(mexXY) d(opmH) d(pscC)
+Pseudomonas aeruginosa_PAO1
+Ec
+Kp
+Pa
+Ab
+acinetobacter_baumanii
+e_coli
+klebsiella_pneumoniae
+pseudomonas_aeruginosa
+neisseria_gonorrhoeae
+Pseudomonas_aeruginosa
+Escherichia_coli

@@ -1,0 +1,225 @@
+{
+ "run_id": "gnn-learned-pointwise_norm-lodo-S3-0ab417",
+ "config": {
+  "scope": "S3_multispecies",
+  "split": "lodo",
+  "arch": "gnn",
+  "features": "learned",
+  "loss": "pointwise_norm",
+  "seed": 0,
+  "device": "cuda",
+  "est_min": 1051.0,
+  "cross_scale": true,
+  "relevance": null,
+  "neg_pool": null,
+  "run_id": "gnn-learned-pointwise_norm-lodo-S3-0ab417",
+  "device_torch": "cuda",
+  "n_jobs": -1
+ },
+ "status": "ok",
+ "aggregate": {
+  "bedroc": 0.4903885172933844,
+  "ef@0.01": 35.62807681126663,
+  "ef@0.05": 10.116561946772148,
+  "ndcg": 0.8517332655597727,
+  "spearman": 0.08981681851945787
+ },
+ "per_assay": [
+  {
+   "assay": "aid_0000710_e_coli_BW25113_100_uM",
+   "n": 97450,
+   "n_actives": 58,
+   "bedroc": 0.8901178368434507,
+   "ef@0.01": 84.52612759328755,
+   "ef@0.05": 18.967463620406544,
+   "ndcg": 0.8790949693510655,
+   "spearman": 0.1564068941487084
+  },
+  {
+   "assay": "aid_1053175_e_coli__",
+   "n": 327127,
+   "n_actives": 217,
+   "bedroc": 0.7226205162468072,
+   "ef@0.01": 61.295381702350085,
+   "ef@0.05": 15.852873788617996,
+   "ndcg": 0.8774164579885737,
+   "spearman": 0.10328307973701308
+  },
+  {
+   "assay": "coadd_os_Acinetobacter baumannii_ATCC 19606_32_ug/mL",
+   "n": 76044,
+   "n_actives": 227,
+   "bedroc": 0.2627999704698297,
+   "ef@0.01": 14.545861349408765,
+   "ef@0.05": 5.462842417739793,
+   "ndcg": 0.8854191922575234,
+   "spearman": 0.09955811899192807
+  },
+  {
+   "assay": "coadd_os_Escherichia coli_ATCC 25922_32_ug/mL",
+   "n": 76159,
+   "n_actives": 108,
+   "bedroc": 0.4735154451959588,
+   "ef@0.01": 35.16625352386507,
+   "ef@0.05": 10.370234204793029,
+   "ndcg": 0.8803025196425486,
+   "spearman": 0.061553686022273034
+  },
+  {
+   "assay": "coadd_os_Escherichia coli_lpxC; MB4902_32_ug/mL",
+   "n": 74758,
+   "n_actives": 274,
+   "bedroc": 0.44322401579821635,
+   "ef@0.01": 27.35689332136305,
+   "ef@0.05": 9.999732477260567,
+   "ndcg": 0.8856099370965325,
+   "spearman": 0.08218020383127426
+  },
+  {
+   "assay": "coadd_os_Escherichia coli_tolC; MB5747_32_ug/mL",
+   "n": 67896,
+   "n_actives": 679,
+   "bedroc": 0.3454234958199192,
+   "ef@0.01": 17.524740749738093,
+   "ef@0.05": 7.216069720480391,
+   "ndcg": 0.8708038897471083,
+   "spearman": 0.16015503674983142
+  },
+  {
+   "assay": "coadd_os_Pseudomonas aeruginosa_PAO397; PAO1 d(mexAB-oprM) d(mexCD-oprJ) d(mexEF-oprN) d(mexJKL) d(mexXY) d(opmH) d(pscC)_32_ug/mL",
+   "n": 14384,
+   "n_actives": 56,
+   "bedroc": 0.35023367179644854,
+   "ef@0.01": 23.188492063492063,
+   "ef@0.05": 6.787601827935625,
+   "ndcg": 0.7572747494226683,
+   "spearman": -0.016124352835895795
+  },
+  {
+   "assay": "gadiya_pmic_gram_negative__pMIC",
+   "n": 39743,
+   "n_actives": 2596,
+   "bedroc": 0.40050174345768547,
+   "ef@0.01": 8.175255091149722,
+   "ef@0.05": 4.946444260575094,
+   "ndcg": 0.9848879455609548,
+   "spearman": 0.32584520027956787
+  },
+  {
+   "assay": "gadiya_validation_Escherichia_coli_50_uM",
+   "n": 101003,
+   "n_actives": 62,
+   "bedroc": 0.696557040776776,
+   "ef@0.01": 64.5180453529224,
+   "ef@0.05": 14.516560204407536,
+   "ndcg": 0.6792884053494166,
+   "spearman": 0.004124377499150796
+  },
+  {
+   "assay": "zahed_2021_e_coli_BW25113_deltaTolC_10_uM",
+   "n": 318373,
+   "n_actives": 1371,
+   "bedroc": 0.31889143652875157,
+   "ef@0.01": 19.983717365089486,
+   "ef@0.05": 7.045796945504889,
+   "ndcg": 0.8172345891813346,
+   "spearman": -0.07881405922927247
+  }
+ ],
+ "per_fold": [
+  {
+   "fold": 0,
+   "assay": "aid_0000710_e_coli_BW25113_100_uM",
+   "bedroc": 0.8901178368434507,
+   "ef@0.01": 84.52612759328755,
+   "ef@0.05": 18.967463620406544,
+   "ndcg": 0.8790949693510655,
+   "spearman": 0.1564068941487084
+  },
+  {
+   "fold": 1,
+   "assay": "aid_1053175_e_coli__",
+   "bedroc": 0.7226205162468072,
+   "ef@0.01": 61.295381702350085,
+   "ef@0.05": 15.852873788617996,
+   "ndcg": 0.8774164579885737,
+   "spearman": 0.10328307973701308
+  },
+  {
+   "fold": 2,
+   "assay": "coadd_os_Acinetobacter baumannii_ATCC 19606_32_ug/mL",
+   "bedroc": 0.2627999704698297,
+   "ef@0.01": 14.545861349408765,
+   "ef@0.05": 5.462842417739793,
+   "ndcg": 0.8854191922575234,
+   "spearman": 0.09955811899192807
+  },
+  {
+   "fold": 2,
+   "assay": "coadd_os_Escherichia coli_ATCC 25922_32_ug/mL",
+   "bedroc": 0.4735154451959588,
+   "ef@0.01": 35.16625352386507,
+   "ef@0.05": 10.370234204793029,
+   "ndcg": 0.8803025196425486,
+   "spearman": 0.061553686022273034
+  },
+  {
+   "fold": 2,
+   "assay": "coadd_os_Escherichia coli_lpxC; MB4902_32_ug/mL",
+   "bedroc": 0.44322401579821635,
+   "ef@0.01": 27.35689332136305,
+   "ef@0.05": 9.999732477260567,
+   "ndcg": 0.8856099370965325,
+   "spearman": 0.08218020383127426
+  },
+  {
+   "fold": 2,
+   "assay": "coadd_os_Escherichia coli_tolC; MB5747_32_ug/mL",
+   "bedroc": 0.3454234958199192,
+   "ef@0.01": 17.524740749738093,
+   "ef@0.05": 7.216069720480391,
+   "ndcg": 0.8708038897471083,
+   "spearman": 0.16015503674983142
+  },
+  {
+   "fold": 2,
+   "assay": "coadd_os_Pseudomonas aeruginosa_PAO397; PAO1 d(mexAB-oprM) d(mexCD-oprJ) d(mexEF-oprN) d(mexJKL) d(mexXY) d(opmH) d(pscC)_32_ug/mL",
+   "bedroc": 0.35023367179644854,
+   "ef@0.01": 23.188492063492063,
+   "ef@0.05": 6.787601827935625,
+   "ndcg": 0.7572747494226683,
+   "spearman": -0.016124352835895795
+  },
+  {
+   "fold": 3,
+   "assay": "gadiya_pmic_gram_negative__pMIC",
+   "bedroc": 0.40050174345768547,
+   "ef@0.01": 8.175255091149722,
+   "ef@0.05": 4.946444260575094,
+   "ndcg": 0.9848879455609548,
+   "spearman": 0.32584520027956787
+  },
+  {
+   "fold": 4,
+   "assay": "gadiya_validation_Escherichia_coli_50_uM",
+   "bedroc": 0.696557040776776,
+   "ef@0.01": 64.5180453529224,
+   "ef@0.05": 14.516560204407536,
+   "ndcg": 0.6792884053494166,
+   "spearman": 0.004124377499150796
+  },
+  {
+   "fold": 5,
+   "assay": "zahed_2021_e_coli_BW25113_deltaTolC_10_uM",
+   "bedroc": 0.31889143652875157,
+   "ef@0.01": 19.983717365089486,
+   "ef@0.05": 7.045796945504889,
+   "ndcg": 0.8172345891813346,
+   "spearman": -0.07881405922927247
+  }
+ ],
+ "n_rows_scored": 1192937,
+ "finished_utc": "2026-08-14T04:43:38+00:00",
+ "git_commit": "914c0bf",
+ "runtime_min": 669.3628480116527
+}

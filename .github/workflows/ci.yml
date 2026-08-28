@@ -1,0 +1,23 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      # torch is not needed for the test suite (metrics/pairs/splits are pure numpy),
+      # so CI stays fast and avoids the heavy torch download.
+      - name: Install dependencies
+        run: pip install numpy scipy scikit-learn pandas pytest ruff
+      - name: Lint
+        run: ruff check .
+      - name: Run tests
+        run: pytest

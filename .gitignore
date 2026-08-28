@@ -1,0 +1,55 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+.venv/
+venv/
+env/
+
+# Tooling / caches
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.ipynb_checkpoints/
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
+
+# Data & artifacts (keep the repo code-only)
+*.npz
+*.csv
+# ...except the experiment manifest (16KB): it is the artifact reviewed before a batch
+# launches, so it belongs in the PR. Regenerate with `python experiment_registry.py
+# --manifest results/experiment_registry.csv`.
+!results/experiment_registry.csv
+# ...and the manuscript tables (small, machine-readable source of the .md/.tex views,
+# regenerated with `python make_benchmark_tables.py all`).
+!results/tables/*.csv
+*.parquet
+*.ckpt
+*.pt
+*.pth
+*.pdf
+*.log
+*.xlsm
+detached.out
+runs/
+lightning_logs/
+results/*_smoke/
+
+# Same rule for the public benchmark's LODO folds (90MB; rebuild with
+# `make_public_splits.py --lodo`). The _meta.json (4KB, per-fold counts) stays tracked.
+data/public_lodo_splits.json
+
+# Curated reference PDFs (kept locally, not committed)
+literature/
+results/benchmark/*_oof.npz
+
+# bootstrap_ci_cache.json IS tracked/shipped: it holds the small precomputed bootstrap
+# CIs so the verdict figure's whiskers regenerate without the large OOF archives.
+!results/five_by_five/*.csv

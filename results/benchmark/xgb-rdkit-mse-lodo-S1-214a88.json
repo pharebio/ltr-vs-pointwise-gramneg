@@ -1,0 +1,110 @@
+{
+ "run_id": "xgb-rdkit-mse-lodo-S1-214a88",
+ "config": {
+  "scope": "S1_wt_ecoli",
+  "split": "lodo",
+  "arch": "xgb",
+  "features": "rdkit",
+  "loss": "mse",
+  "seed": 0,
+  "device": "cpu",
+  "est_min": 1.4,
+  "cross_scale": false,
+  "relevance": null,
+  "neg_pool": null,
+  "run_id": "xgb-rdkit-mse-lodo-S1-214a88",
+  "device_torch": "cpu",
+  "n_jobs": 4
+ },
+ "status": "ok",
+ "aggregate": {
+  "bedroc": 0.6990000799421036,
+  "ef@0.01": 62.71636124260557,
+  "ef@0.05": 14.844261349907873,
+  "ndcg": 0.8378620352114262,
+  "spearman": 0.07472733112126319
+ },
+ "per_assay": [
+  {
+   "assay": "aid_0000710_e_coli_BW25113_100_uM",
+   "n": 97450,
+   "n_actives": 58,
+   "bedroc": 0.7745587349535619,
+   "ef@0.01": 69.00092048431637,
+   "ef@0.05": 16.553422795991168,
+   "ndcg": 0.8646577348480218,
+   "spearman": 0.0809469834804833
+  },
+  {
+   "assay": "aid_1053175_e_coli__",
+   "n": 327092,
+   "n_actives": 216,
+   "bedroc": 0.7902533174418372,
+   "ef@0.01": 74.99816569856313,
+   "ef@0.05": 16.38848806005639,
+   "ndcg": 0.8877783779002044,
+   "spearman": 0.11322306672122559
+  },
+  {
+   "assay": "coadd_os_Escherichia coli_ATCC 25922_32_ug/mL",
+   "n": 76128,
+   "n_actives": 106,
+   "bedroc": 0.5834414764103059,
+   "ef@0.01": 47.18716683608956,
+   "ef@0.05": 13.208935246234843,
+   "ndcg": 0.8859985547101332,
+   "spearman": 0.08892711382183689
+  },
+  {
+   "assay": "gadiya_validation_Escherichia_coli_50_uM",
+   "n": 101003,
+   "n_actives": 62,
+   "bedroc": 0.6477467909627092,
+   "ef@0.01": 59.67919195145321,
+   "ef@0.05": 13.22619929734909,
+   "ndcg": 0.7130134733873454,
+   "spearman": 0.015812160461506963
+  }
+ ],
+ "per_fold": [
+  {
+   "fold": 0,
+   "assay": "aid_0000710_e_coli_BW25113_100_uM",
+   "bedroc": 0.7745587349535619,
+   "ef@0.01": 69.00092048431637,
+   "ef@0.05": 16.553422795991168,
+   "ndcg": 0.8646577348480218,
+   "spearman": 0.0809469834804833
+  },
+  {
+   "fold": 1,
+   "assay": "aid_1053175_e_coli__",
+   "bedroc": 0.7902533174418372,
+   "ef@0.01": 74.99816569856313,
+   "ef@0.05": 16.38848806005639,
+   "ndcg": 0.8877783779002044,
+   "spearman": 0.11322306672122559
+  },
+  {
+   "fold": 2,
+   "assay": "coadd_os_Escherichia coli_ATCC 25922_32_ug/mL",
+   "bedroc": 0.5834414764103059,
+   "ef@0.01": 47.18716683608956,
+   "ef@0.05": 13.208935246234843,
+   "ndcg": 0.8859985547101332,
+   "spearman": 0.08892711382183689
+  },
+  {
+   "fold": 3,
+   "assay": "gadiya_validation_Escherichia_coli_50_uM",
+   "bedroc": 0.6477467909627092,
+   "ef@0.01": 59.67919195145321,
+   "ef@0.05": 13.22619929734909,
+   "ndcg": 0.7130134733873454,
+   "spearman": 0.015812160461506963
+  }
+ ],
+ "n_rows_scored": 601673,
+ "runtime_min": 3.902088268597921,
+ "provenance_note": "task id backfilled by make_task_index.py"
+}

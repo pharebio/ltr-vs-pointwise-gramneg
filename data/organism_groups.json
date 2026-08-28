@@ -1,0 +1,50 @@
+{
+ "groups": {
+  "e_coli_wt": {
+   "tasks": [
+    "aid_0000710_e_coli_BW25113_100_uM",
+    "aid_1053175_e_coli__",
+    "coadd_os_Escherichia coli_ATCC 25922_32_ug/mL",
+    "gadiya_validation_Escherichia_coli_50_uM"
+   ]
+  },
+  "e_coli_efflux_ko": {
+   "tasks": [
+    "coadd_os_Escherichia coli_tolC; MB5747_32_ug/mL",
+    "zahed_2021_e_coli_BW25113_deltaTolC_10_uM"
+   ]
+  },
+  "e_coli_om_defect": {
+   "tasks": [
+    "coadd_os_Escherichia coli_lpxC; MB4902_32_ug/mL"
+   ]
+  },
+  "k_pneumoniae": {
+   "tasks": [
+    "coadd_os_Klebsiella pneumoniae_ATCC 700603; MDR_32_ug/mL"
+   ]
+  },
+  "a_baumannii": {
+   "tasks": [
+    "coadd_os_Acinetobacter baumannii_ATCC 19606_32_ug/mL"
+   ]
+  },
+  "p_aeruginosa_wt": {
+   "tasks": [
+    "coadd_os_Pseudomonas aeruginosa_ATCC 27853_32_ug/mL",
+    "coadd_os_Pseudomonas aeruginosa_PAO1_32_ug/mL",
+    "gadiya_validation_Pseudomonas_aeruginosa_50_uM"
+   ]
+  },
+  "p_aeruginosa_efflux_ko": {
+   "tasks": [
+    "coadd_os_Pseudomonas aeruginosa_PAO397; PAO1 d(mexAB-oprM) d(mexCD-oprJ) d(mexEF-oprN) d(mexJKL) d(mexXY) d(opmH) d(pscC)_32_ug/mL"
+   ]
+  },
+  "gram_neg_pmic": {
+   "tasks": [
+    "gadiya_pmic_gram_negative__pMIC"
+   ]
+  }
+ }
+}
